@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@500&family=Source+Sans+Pro&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url(../img/102-1022863_space-skull.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+table {
+    padding: 15px 15px;
+}
+
+fieldset, legend {
+    padding: 15px 20px;
+    color: white;
+    border-radius: 5px;
+    border-color: burlywood;
+    font-family: 'Noto Sans', sans-serif;
+}
+
+.nav_links li{
+    list-style-type: none;
+    display: inline-block;
+    padding: 0px 15px;
+}
+
+.nav_links {
+    float: left;
+}
+
+a {
+    text-decoration: none;
+    color: #609966;
+    font-family: 'Noto Sans', sans-serif;
+    font-weight: 600;
+    transition: all 0.3s ease 0s;
+    position: relative;
+    top: -12px;
+}
+
+a:hover {
+    color: darkslateblue;
+    position: relative;
+    top: -10px;
+}
+
+.main_content{
+    padding: 5px 20px;
+    text-align: justify;
+    color: white;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+.img_1 {
+    padding: 0 15px;
+}
+
+.secondary_content {
+    margin: 0px 15px;
+}
+
+.secondary_content p {
+    padding: 10px 10px;
+}
+
+.secondary_content ul {
+    padding: 0px 15px;
+    position: relative;
+    left: 150px;
+}
+
+.secondary_content img {
+    padding: 0px 10px;
+}
+
+.content_fld{
+    font-family: monospace;
+    font-size: 12pt;
+    text-align: justify;
+    text-decoration: none;
+    
+}
+
+marquee, .mrq{
+    font-family: Cascadia Code;
+    color: white;
+    padding: 25px 0;
+}
+
+table ul {
+    text-align: center;
+}
